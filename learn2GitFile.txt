@@ -1,0 +1,1 @@
+Untracked changes.  Untracked changes haven't been added so we can't roll back. Git add one at a time git commit in batch

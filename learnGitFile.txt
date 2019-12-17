@@ -1,0 +1,19 @@
+This is a file just for learning git
+I need to make good notes so that I can share what I learn.
+
+When you create something or change something in a .git enabled space
+git will know what files have changed or have been created
+git status will show what state files need to be "added" and "commit"
+git repositories work in the directory they are in and sub directories. So items in external directories are not tracked.
+
+git add to add changed/created files
+git commit with -m "change info here"
+git status to confirm commit
+git log lists all of the changes w/messges
+    you can use git log to inform where you want to rollback to if you would like to.
+if you need to roll back to a previous version:
+git log -- to get the hash of the version you want
+git checkout <hash> filename
+git status to confirm you have checked out the file
+git commit -m "your message"
+how to handle two files at different states 
